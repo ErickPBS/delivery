@@ -13,4 +13,8 @@ func Index(w http.ResponseWriter, r *http.Request) {
 
 func Login(w http.ResponseWriter, r *http.Request) {
 	temp.ExecuteTemplate(w, "Login", nil)
+
+}
+func Painel(w http.ResponseWriter, r *http.Request) {
+	temp.ExecuteTemplate(w, "Painel", nil)
 }
